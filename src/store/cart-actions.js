@@ -70,7 +70,7 @@ export const sendCartData = (cart) => {
       dispatch(
         uiActions.showNotification({
           status: "success",
-          title: "Success!",
+          title: "Success !",
           message: "Sent cart data successfully!",
         })
       );
@@ -78,7 +78,7 @@ export const sendCartData = (cart) => {
       dispatch(
         uiActions.showNotification({
           status: "error",
-          title: "Error!",
+          title: "Error !",
           message: "Sending cart data failed!",
         })
       );
