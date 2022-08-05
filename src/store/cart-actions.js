@@ -11,7 +11,6 @@ export const fetchCartData = () => {
       if (!response.ok) {
         throw new Error("Could not fetch cart data!");
       }
-
       const data = await response.json();
 
       return data;
