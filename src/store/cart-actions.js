@@ -29,8 +29,7 @@ export const fetchCartData = () => {
       dispatch(
         uiActions.showNotification({
           status: "error",
-          title: "Error!",
-          
+          title: "Error!",          
           message: "Fetching cart data failed!",
         })
       );
