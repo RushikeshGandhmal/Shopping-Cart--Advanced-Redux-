@@ -10,7 +10,6 @@ const MainHeader = (props) => {
           <li>
             <CartButton />
           </li>
-
         </ul>
       </nav>
     </header>
